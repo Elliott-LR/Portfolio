@@ -1,0 +1,170 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --- Global Styles --- */
+body {
+    font-family: Arial, sans-serif; /* Police par défaut */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les paddings par défaut */
+    line-height: 1.6; /* Hauteur des lignes */
+}
+
+/* --- Header --- */
+header {
+    background: #f4f4f4; /* Couleur de fond gris clair */
+    padding: 10px 20px; /* Espacement interne */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo-image {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+/* --- Section Hero --- */
+.hero {
+    text-align: center; /* Centre le contenu */
+    padding: 50px 20px; /* Espacement interne (haut/bas : 50px, gauche/droite : 20px) */
+    background: #fff; /* Couleur de fond blanche */
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Taille du titre principal */
+    margin-bottom: 10px; /* Espacement en bas */
+}
+
+.hero p {
+    font-size: 1.2rem; /* Taille du texte */
+}
+
+.contact-button {
+    background: #000; /* Couleur de fond noire */
+    color: #fff; /* Couleur du texte blanche */
+    padding: 10px 20px; /* Espacement interne */
+    border: none; /* Supprime la bordure */
+    cursor: pointer; /* Change le curseur au survol */
+    margin-top: 20px; /* Espacement au-dessus du bouton */
+}
+
+.social-icons {
+    margin-top: 10px; /* Espacement au-dessus des icônes */
+    display: flex; /* Affiche les icônes horizontalement */
+    justify-content: center; /* Centre les icônes */
+    gap: 15px; /* Espacement entre les icônes */
+}
+
+.social-icons a {
+    text-decoration: none; /* Supprime le soulignement */
+    font-size: 1.2rem; /* Taille des icônes */
+    color: #333; /* Couleur des icônes */
+}
+
+/* --- Section Projets --- */
+.projects {
+    display: grid; /* Utilise une grille pour les projets */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Colonnes responsives */
+    gap: 20px; /* Espacement entre les projets */
+    padding: 20px; /* Espacement autour de la section */
+}
+
+.project-card {
+    background: #f4f4f4; /* Fond gris clair */
+    padding: 15px; /* Espacement interne */
+    border-radius: 10px; /* Angles arrondis */
+    text-align: center; /* Centre le contenu */
+}
+
+.titreClique {
+    font-family: "Inter", serif;
+    font-optical-sizing: 64px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.project-card img {
+    width: 100%; /* L'image occupe toute la largeur */
+    height: auto; /* Hauteur ajustée automatiquement */
+    border-radius: 5px; /* Angles arrondis pour les images */
+}
+
+/* --- Section Qualités --- */
+.qualities {
+    display: flex; /* Affiche les qualités horizontalement */
+    justify-content: center; /* Centre les qualités */
+    gap: 20px; /* Espacement entre chaque qualité */
+    padding: 20px; /* Espacement autour de la section */
+}
+
+.quality {
+    background: #f4f4f4; /* Fond gris clair */
+    padding: 20px; /* Espacement interne */
+    border-radius: 10px; /* Angles arrondis */
+    font-weight: bold; /* Texte en gras */
+    text-align: center; /* Centre le texte */
+}
+
+/* --- Section Parcours --- */
+.timeline {
+    display: flex; /* Affiche les années horizontalement */
+    justify-content: space-around; /* Répartit les années uniformément */
+    padding: 20px; /* Espacement autour de la section */
+}
+
+.année {
+    text-align: center; /* Centre chaque bloc d'année */
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center; /* Centre le contenu */
+    padding: 10px; /* Espacement interne */
+    background: #f4f4f4; /* Fond gris clair */
+}
+
+footer p {
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+footer .social-icons {
+    margin-top: 10px; /* Espacement au-dessus des icônes */
+}
