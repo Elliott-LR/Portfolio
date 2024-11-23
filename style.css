@@ -82,12 +82,14 @@ header {
 }
 
 .contact-button {
-    background: #000; /* Couleur de fond noire */
+    background: #0000007a; /* Couleur de fond noire */
     color: #fff; /* Couleur du texte blanche */
-    padding: 8px 16px; /* Espacement interne */
+    padding: 4px 8px; /* Espacement interne */
     border: none; /* Supprime la bordure */
     cursor: pointer; /* Change le curseur au survol */
     margin-top: 20px; /* Espacement au-dessus du bouton */
+    font-size: 16px;
+    border-radius: 10px;
 }
 
 .social-icons {
@@ -118,7 +120,7 @@ header {
     text-align: center; /* Centre le contenu */
 }
 
-.titreClique {
+.titre-clique {
     font-family: "Inter", serif;
     font-optical-sizing: 64px;
     font-weight: 600;
