@@ -8,6 +8,10 @@ html {
 
 a {
     text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.3s;
 }
 
 /* --- Global Styles --- */
@@ -57,7 +61,7 @@ header {
     text-decoration: none;
     color: #333;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     transition: color 0.3s;
 }
 
@@ -80,7 +84,7 @@ header {
 .contact-button {
     background: #000; /* Couleur de fond noire */
     color: #fff; /* Couleur du texte blanche */
-    padding: 10px 20px; /* Espacement interne */
+    padding: 8px 16px; /* Espacement interne */
     border: none; /* Supprime la bordure */
     cursor: pointer; /* Change le curseur au survol */
     margin-top: 20px; /* Espacement au-dessus du bouton */
